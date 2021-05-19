@@ -1,13 +1,13 @@
 {
-    "version": "0.7.2",
+    "version": "0.8.0",
     "description": "GPU-accelerated terminal emulator",
     "homepage": "https://github.com/alacritty/alacritty",
     "license": "Apache-2.0",
     "suggest": {
         "vcredist": "extras/vcredist2017"
     },
-    "url": "https://github.com/alacritty/alacritty/releases/download/v0.7.2/Alacritty-v0.7.2-installer.msi",
-    "hash": "d94f98fbfdd964c96df1ef95d65360c28128b8d2ffd359f8aae762e44af6424b",
+    "url": "https://github.com/alacritty/alacritty/releases/download/v0.8.0/Alacritty-v0.8.0-installer.msi",
+    "hash": "958eea6463a6d91f5de34931ac23a770dc34972137f169c7ec9bc73cdf7d8dba",
     "extract_dir": "Alacritty",
     "bin": "alacritty.exe",
     "shortcuts": [
@@ -21,4 +21,4 @@
     "autoupdate": {
         "url": "https://github.com/alacritty/alacritty/releases/download/v$version/Alacritty-v$version-installer.msi"
     }
-} 
+}
