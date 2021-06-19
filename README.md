@@ -1,9 +1,9 @@
-# scoop-msi
+# cone
 
-Collection of MSI's on Scoop.
+Personal Scoop bucket. Useful apps, hash fixes, etc!
 
 ```
-scoop bucket add msi https://github.com/Milo123459/scoop-msi
+scoop bucket add cone https://github.com/Milo123459/cone
 # install alacritty
-scoop install msi/alacritty
+scoop install cone/alacritty
 ```
