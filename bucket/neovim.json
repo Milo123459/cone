@@ -1,0 +1,46 @@
+{
+    "version": "0.4.4",
+    "description": "Vim-fork focused on extensibility and usability",
+    "homepage": "https://neovim.io/",
+    "license": {
+        "identifier": "Apache-2.0,Vim",
+        "url": "https://github.com/neovim/neovim/blob/master/LICENSE"
+    },
+    "suggest": {
+        "vcredist": "extras/vcredist2015"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/neovim/neovim/releases/download/v0.4.4/nvim-win64.zip",
+            "hash": "4b88daae8427624f82abb10eb6e527f4b0c600e83aaa9a0857d06106b445bbd3"
+        },
+        "32bit": {
+            "url": "https://github.com/neovim/neovim/releases/download/v0.4.4/nvim-win32.zip",
+            "hash": "2b8011cbe4a4028d8fddfecf555b5a66d05ad34d36e242ff26b418ddf33b323f"
+        }
+    },
+    "extract_dir": "Neovim",
+    "bin": [
+        "bin\\nvim.exe",
+        "bin\\nvim-qt.exe"
+    ],
+    "shortcuts": [
+        [
+            "bin\\nvim-qt.exe",
+            "Neovim"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/neovim/neovim"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/neovim/neovim/releases/download/v$version/nvim-win32.zip"
+            }
+        }
+    }
+}
