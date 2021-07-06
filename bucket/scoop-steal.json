@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Milo123459/cone",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/Milo123459/cone/master/scripts/scoop-steal.ps1",
-    "hash": "5ee2be6272b7c55a598f50696982d339062dfae70e041c0e704341cc84f1ce70",
+    "hash": "8d29752ec841c2c2be2e8073e47be3f2888843c1b32574163812f3be25175639",
     "bin": "scoop-steal.ps1",
     "checkver": {
         "url": "https://github.com/Milo123459/cone/commits/master/scripts/scoop-steal.ps1.atom",
