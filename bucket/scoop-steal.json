@@ -1,10 +1,10 @@
 {
-    "version": "0.2021.06.07",
+    "version": "0.2021.07.06",
     "description": "Steal any scoop app from a local bucket into your current bucket.",
     "homepage": "https://github.com/Milo123459/cone",
     "license": "MIT",
-    "url": "https://raw.githubusercontent.com/Milo123459/cone/master/scripts/scoop-steal.ps1",
-    "hash": "8d29752ec841c2c2be2e8073e47be3f2888843c1b32574163812f3be25175639",
+    "url": "https://raw.githubusercontent.com/Milo123459/cone/ffb39cdc107268bc5cfc1982e4876f70663c62bc/scripts/scoop-steal.ps1",
+    "hash": "6ea9229284185737194be0e4df0cdcc9b117bb9dddcbb04667f7ed863bda9814",
     "bin": "scoop-steal.ps1",
     "checkver": {
         "url": "https://github.com/Milo123459/cone/commits/master/scripts/scoop-steal.ps1.atom",
