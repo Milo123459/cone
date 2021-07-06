@@ -15,7 +15,15 @@ Usage is simple: Scoop-Steal BUCKET APP
 For example,
 Scoop-Steal main glitter"
     } else {
-        Get-Content "~/scoop/buckets/${bucket}/bucket/${$app}.json" | Add-Content -Path "${$PWD}/bucket/${app}.json"
+        if(Test-Path -Path "bucket/${app}.json") {
+            Write-Host "
+File already exists, cancelling."
+exit 1
+        }
+        New-Item -Path "${PWD}/bucket/${app}.json"
+        Get-Content "~/scoop/buckets/${bucket}/bucket/${app}.json" | Add-Content -Path "${PWD}/bucket/${app}.json"
+        Clear-Host
+        Write-Host "Successfully stole app ${app} from bucket ${bucket}"
     }
 }
 
