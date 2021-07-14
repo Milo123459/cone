@@ -4,7 +4,7 @@
     "homepage": "https://github.com/Milo123459/cone",
     "license": "MIT",
     "url": "https://raw.githubusercontent.com/Milo123459/cone/HEAD/scripts/install-rust.ps1",
-    "hash": "6ea9229284185737194be0e4df0cdcc9b117bb9dddcbb04667f7ed863bda9814",
+    "hash": "2d78e09dc0b91fb6a7cf76beb118e867a0cae13569007f8d0fc7ac831da93164",
     "bin": "install-rust.ps1",
     "checkver": {
         "url": "https://github.com/Milo123459/cone/commits/master/scripts/install-rust.ps1.atom",
