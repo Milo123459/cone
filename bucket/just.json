@@ -1,12 +1,12 @@
 {
-    "version": "0.9.8",
+    "version": "0.9.9",
     "description": "A command runner written in rust",
     "homepage": "https://just.systems",
     "license": "CC0-1.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/casey/just/releases/download/0.9.8/just-0.9.8-x86_64-pc-windows-msvc.zip",
-            "hash": "5a674c98d70b4a294717b49b9c909ba6175b7fcd87df23cf899cf240df7e77aa"
+            "url": "https://github.com/casey/just/releases/download/0.9.9/just-0.9.9-x86_64-pc-windows-msvc.zip",
+            "hash": "e40a21e71bafb33d809418aae3568f4193b8633e9fc865a90b2516c5fa0f2839"
         }
     },
     "bin": "just.exe",
