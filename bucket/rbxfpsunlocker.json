@@ -1,0 +1,24 @@
+{
+    "version": "4.4.0",
+    "description": "Unlock your roblox fps",
+    "homepage": "https://github.com/axstin/rbxfpsunlocker",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/axstin/rbxfpsunlocker/files/6897488/rbxfpsunlocker-x64.zip",
+            "hash": "cb73a29a90f83a33c23126fa205eb642718da9286d3b37e5bdb0a0fc586de4fb"
+        }
+    },
+    "bin": "rbxfpsunlocker.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v$version/rbxfpsunlocker-x64.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
