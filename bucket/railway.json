@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/railwayapp/cli/releases/download/v0.2.43/railway_0.2.43_windows_amd64.tar.gz",
-            "hash": "cb73a29a90f83a33c23126fa205eb642718da9286d3b37e5bdb0a0fc586de4fb"
+            "hash": "d11d9fc4e6dbfb22b98273b84abb9c08c35ee461b21a849939d147c955784347"
         }
     },
     "bin": "railway.exe",
