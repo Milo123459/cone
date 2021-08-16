@@ -1,16 +1,16 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Curl scripts made simple",
     "homepage": "https://github.com/Milo123459/coco",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Milo123459/coco/releases/download/v1.0.1/coco-x86_64-pc-windows-msvc.zip",
-            "hash": "affbe8874c8d5dc9d8e0dc0aa443b8a7903e438b796757ece1606344db17e7bc"
+            "url": "https://github.com/Milo123459/coco/releases/download/v1.0.2/coco-x86_64-pc-windows-msvc.zip",
+            "hash": "13794a00b79bd0c7621b588f268444e7467144b2b685c5b5de4062690d18e4eb"
         },
         "32bit": {
-            "url": "https://github.com/Milo123459/coco/releases/download/v1.0.1/coco-i686-pc-windows-msvc.zip",
-            "hash": "c998519af113d61cbd5da01d29c265dc3837f654fe774f559d0fe91421f9d810"
+            "url": "https://github.com/Milo123459/coco/releases/download/v1.0.2/coco-i686-pc-windows-msvc.zip",
+            "hash": "4b3900d2bcd9149f65d1234e1848f62e5d1e1361ec2856a95facf281dc2ac144"
         }
     },
     "bin": "coco.exe",
