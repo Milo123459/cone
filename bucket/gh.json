@@ -1,16 +1,16 @@
 {
-    "version": "1.14.0",
+    "version": "2.1.0",
     "description": "Official GitHub CLI",
     "homepage": "https://cli.github.com",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/cli/cli/releases/download/v1.14.0/gh_1.14.0_windows_amd64.zip",
-            "hash": "6d47bfceb547fe60ad09528ce445aff8cc248653e6ce457b154f705ccced790f"
+            "url": "https://github.com/cli/cli/releases/download/v2.1.0/gh_2.1.0_windows_amd64.zip",
+            "hash": "34fa202c7cf731f7ff134535200da92af3d7cde05275c3621a92a3fdd65f6a07"
         },
         "32bit": {
-            "url": "https://github.com/cli/cli/releases/download/v1.14.0/gh_1.14.0_windows_386.zip",
-            "hash": "44bf45795f7607254d7fcc6f870cb7f53855c029052deb916bd9e5efb3128b27"
+            "url": "https://github.com/cli/cli/releases/download/v2.1.0/gh_2.1.0_windows_386.zip",
+            "hash": "301c661221a9e0e5f0ec9fb0c164602f9ae5c59cec0ccaf246ed4fc305a67e22"
         }
     },
     "bin": "bin\\gh.exe",
