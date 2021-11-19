@@ -1,5 +1,5 @@
 {
-    "version": "8.2.3614",
+    "version": "8.2.3619",
     "description": "A highly configurable text editor for efficiently creating and changing any kind of text.",
     "homepage": "https://www.vim.org",
     "license": "Vim",
@@ -9,24 +9,24 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.3614/gvim_8.2.3614_x64.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.3619/gvim_8.2.3619_x64.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "0264a39ba83542cb65a2ea8ba91251e208c73193d5e5504a1006066a56981e64",
+                "975327d9ab310a22da42232db769554bdcecd423ebcf3b1d37c7484377824f40",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
         },
         "32bit": {
             "url": [
-                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.3614/gvim_8.2.3614_x86.zip",
+                "https://github.com/vim/vim-win32-installer/releases/download/v8.2.3619/gvim_8.2.3619_x86.zip",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/scripts/vim/install-context.reg",
                 "https://raw.githubusercontent.com/ScoopInstaller/Main/master/master/scripts/vim/uninstall-context.reg"
             ],
             "hash": [
-                "0c9cdb4d3fb46d04cb7602d43e318efdd8e9175af43ba5a3cef6338611046656",
+                "cc20c5150d5aab0b293b30c0a7e2486cfd443da07a93b77d1f9435c2d25c5ee2",
                 "16a29881837047d783e8556506c73bbb292bdfefe042d77564d3c166d92b9d98",
                 "49225d3470bf4b397d3cab865eddca6e47610be356f812588588c2661a11557e"
             ]
