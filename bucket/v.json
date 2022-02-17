@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/vlang/v/releases/download/weekly.2022.07/v_windows.zip",
-            "hash": "88c5216ec42a281c76517f7bc2ba30c9393ac6de25d60b1e784ae55decd8b5a3"
+            "hash": "5acb3213acc532faa6cd17c96921860058a85489aeacd9c55d0e4371c6c8e4b3"
         }
     },
     "bin": "v/v.exe",
