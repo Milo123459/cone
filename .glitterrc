@@ -1,0 +1,9 @@
+{
+    "custom_tasks": [
+        {
+            "name": "fmt",
+            "execute": ["prettier --write ."]
+        }
+    ],
+    "hooks": ["fmt"]
+}

@@ -1,24 +1,20 @@
 {
-    "version": "0.10.0",
-    "description": "GPU-accelerated terminal emulator",
-    "homepage": "https://github.com/alacritty/alacritty",
-    "license": "Apache-2.0",
-    "suggest": {
-        "vcredist": "extras/vcredist2017"
-    },
-    "url": "https://github.com/alacritty/alacritty/releases/download/v0.10.0/Alacritty-v0.10.0-installer.msi",
-    "hash": "371413a3c771efb9b63d2f64a86a46a8cbb2207641d8ec33f94fe259d1537bd7",
-    "extract_dir": "Alacritty",
-    "bin": "alacritty.exe",
-    "shortcuts": [
-        [
-            "alacritty.exe",
-            "Alacritty",
-            "--working-directory \"%USERPROFILE%\""
-        ]
-    ],
-    "checkver": "github",
-    "autoupdate": {
-        "url": "https://github.com/alacritty/alacritty/releases/download/v$version/Alacritty-v$version-installer.msi"
-    }
+	"version": "0.10.0",
+	"description": "GPU-accelerated terminal emulator",
+	"homepage": "https://github.com/alacritty/alacritty",
+	"license": "Apache-2.0",
+	"suggest": {
+		"vcredist": "extras/vcredist2017"
+	},
+	"url": "https://github.com/alacritty/alacritty/releases/download/v0.10.0/Alacritty-v0.10.0-installer.msi",
+	"hash": "371413a3c771efb9b63d2f64a86a46a8cbb2207641d8ec33f94fe259d1537bd7",
+	"extract_dir": "Alacritty",
+	"bin": "alacritty.exe",
+	"shortcuts": [
+		["alacritty.exe", "Alacritty", "--working-directory \"%USERPROFILE%\""]
+	],
+	"checkver": "github",
+	"autoupdate": {
+		"url": "https://github.com/alacritty/alacritty/releases/download/v$version/Alacritty-v$version-installer.msi"
+	}
 }
