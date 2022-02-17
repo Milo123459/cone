@@ -1,0 +1,24 @@
+{
+    "version": "weekly.2022.07",
+    "description": "Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies.",
+    "homepage": "https://vlang.io",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/vlang/v/releases/download/weekly.2022.07/v_windows.zip",
+            "hash": "88c5216ec42a281c76517f7bc2ba30c9393ac6de25d60b1e784ae55decd8b5a3"
+        }
+    },
+    "bin": "v/v.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/vlang/v/releases/download/v$version/v_windows.zip"
+            }
+        },
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
