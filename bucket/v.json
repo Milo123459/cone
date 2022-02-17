@@ -1,24 +1,26 @@
 {
-    "version": "weekly.2022.07",
-    "description": "Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in <1s with zero library dependencies.",
+    "version": "0.2.4",
+    "description": "The V programming language",
     "homepage": "https://vlang.io",
     "license": "MIT",
+    "notes": "Windows SDK is required, you either install it by Visual Studios Installer, or download from: https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/vlang/v/releases/download/weekly.2022.07/v_windows.zip",
-            "hash": "5acb3213acc532faa6cd17c96921860058a85489aeacd9c55d0e4371c6c8e4b3"
+            "url": "https://github.com/vlang/v/releases/download/0.2.4/v_windows.zip",
+            "hash": "30fd4a6773f9bf55f0ef3a0aefa52df77ce6a3035836c283bb1bf5d8e6412499"
         }
     },
-    "bin": "v/v.exe",
-    "checkver": "github",
+    "extract_dir": "v",
+    "bin": "v.exe",
+    "checkver": {
+        "url": "https://github.com/vlang/v/releases",
+        "regex": "releases/tag/([\\d.]+)"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/vlang/v/releases/download/v$version/v_windows.zip"
+                "url": "https://github.com/vlang/v/releases/download/$version/v_windows.zip"
             }
-        },
-        "hash": {
-            "url": "$url.sha256"
         }
     }
 }
