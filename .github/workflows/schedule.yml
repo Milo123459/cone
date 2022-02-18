@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: Excavate
-        uses: Ash258/Scoop-GithubActions@stable
+        uses: kidonng/Scoop-GithubActions@stable
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SKIP_UPDATED: "1"
