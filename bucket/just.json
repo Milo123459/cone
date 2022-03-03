@@ -1,23 +1,23 @@
 {
-    "version": "1.0.1",
-    "description": "A command runner written in rust",
-    "homepage": "https://just.systems",
-    "license": "CC0-1.0",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/casey/just/releases/download/1.0.1/just-1.0.1-x86_64-pc-windows-msvc.zip",
-            "hash": "a5d83fefb56f9aad15f3ee1752a2d77b3d1dc8753d17a000204bc15171b8030c"
-        }
-    },
-    "bin": "just.exe",
-    "checkver": {
-        "github": "https://github.com/casey/just"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/casey/just/releases/download/$version/just-$version-x86_64-pc-windows-msvc.zip"
-            }
-        }
-    }
+	"version": "1.0.1",
+	"description": "A command runner written in rust",
+	"homepage": "https://just.systems",
+	"license": "CC0-1.0",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/casey/just/releases/download/1.0.1/just-1.0.1-x86_64-pc-windows-msvc.zip",
+			"hash": "a5d83fefb56f9aad15f3ee1752a2d77b3d1dc8753d17a000204bc15171b8030c"
+		}
+	},
+	"bin": "just.exe",
+	"checkver": {
+		"github": "https://github.com/casey/just"
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/casey/just/releases/download/$version/just-$version-x86_64-pc-windows-msvc.zip"
+			}
+		}
+	}
 }

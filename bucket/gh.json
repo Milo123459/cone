@@ -1,33 +1,33 @@
 {
-    "version": "2.5.2",
-    "description": "Official GitHub CLI",
-    "homepage": "https://cli.github.com",
-    "license": "MIT",
-    "architecture": {
-        "64bit": {
-            "url": "https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_windows_amd64.zip",
-            "hash": "5a7d09e468f90ef260552f9bea03739586f468912b077a161002e74dc4c12375"
-        },
-        "32bit": {
-            "url": "https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_windows_386.zip",
-            "hash": "057f6f0bc6c097a2ca96c6e40100db9cb43c8f54d78bee7fc5478ef85da79493"
-        }
-    },
-    "bin": "bin\\gh.exe",
-    "checkver": {
-        "github": "https://github.com/cli/cli"
-    },
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_amd64.zip"
-            },
-            "32bit": {
-                "url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_386.zip"
-            }
-        },
-        "hash": {
-            "url": "$baseurl/gh_$version_checksums.txt"
-        }
-    }
+	"version": "2.5.2",
+	"description": "Official GitHub CLI",
+	"homepage": "https://cli.github.com",
+	"license": "MIT",
+	"architecture": {
+		"64bit": {
+			"url": "https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_windows_amd64.zip",
+			"hash": "5a7d09e468f90ef260552f9bea03739586f468912b077a161002e74dc4c12375"
+		},
+		"32bit": {
+			"url": "https://github.com/cli/cli/releases/download/v2.5.2/gh_2.5.2_windows_386.zip",
+			"hash": "057f6f0bc6c097a2ca96c6e40100db9cb43c8f54d78bee7fc5478ef85da79493"
+		}
+	},
+	"bin": "bin\\gh.exe",
+	"checkver": {
+		"github": "https://github.com/cli/cli"
+	},
+	"autoupdate": {
+		"architecture": {
+			"64bit": {
+				"url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_amd64.zip"
+			},
+			"32bit": {
+				"url": "https://github.com/cli/cli/releases/download/v$version/gh_$version_windows_386.zip"
+			}
+		},
+		"hash": {
+			"url": "$baseurl/gh_$version_checksums.txt"
+		}
+	}
 }
