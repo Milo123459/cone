@@ -1,36 +1,36 @@
 {
-	"version": "4.4.2",
-	"description": "Unlock your roblox fps",
-	"homepage": "https://github.com/axstin/rbxfpsunlocker",
-	"license": "MIT",
-	"architecture": {
-		"64bit": {
-			"url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v4.4.2/rbxfpsunlocker-x64.zip",
-			"hash": "a7b6560104164e5fc4c01d5da889777c2c5fb504ef15b6cda224d60a46010517"
-		}
-	},
-	"bin": "rbxfpsunlocker.exe",
-	"checkver": "github",
-	"autoupdate": {
-		"architecture": {
-			"64bit": {
-				"url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v$version/rbxfpsunlocker-x64.zip"
-			}
-		},
-		"hash": {
-			"url": "$url.sha256"
-		}
-	},
-	"pre_install": [
-		"# Kill all instances of rbxfpsunlocker",
-		"ps rbxfpsunlocker -ErrorAction SilentlyContinue | kill -PassThru",
-		"# Create settings file if it does not exist",
-		"if (!(Test-Path \"$persist_dir\\settings\" -PathType Leaf)) {",
-		"    (New-Item -Type File \"$persist_dir\\settings\" -Force) | Out-Null",
-		"}"
-	],
-	"post_install": "rbxfpsunlocker",
-	"uninstaller": {
-		"script": "ps rbxfpsunlocker -ErrorAction SilentlyContinue | kill -PassThru"
-	}
+  "version": "4.4.2",
+  "description": "Unlock your roblox fps",
+  "homepage": "https://github.com/axstin/rbxfpsunlocker",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v4.4.2/rbxfpsunlocker-x64.zip",
+      "hash": "a7b6560104164e5fc4c01d5da889777c2c5fb504ef15b6cda224d60a46010517"
+    }
+  },
+  "bin": "rbxfpsunlocker.exe",
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/axstin/rbxfpsunlocker/releases/download/v$version/rbxfpsunlocker-x64.zip"
+      }
+    },
+    "hash": {
+      "url": "$url.sha256"
+    }
+  },
+  "pre_install": [
+    "# Kill all instances of rbxfpsunlocker",
+    "ps rbxfpsunlocker -ErrorAction SilentlyContinue | kill -PassThru",
+    "# Create settings file if it does not exist",
+    "if (!(Test-Path \"$persist_dir\\settings\" -PathType Leaf)) {",
+    "    (New-Item -Type File \"$persist_dir\\settings\" -Force) | Out-Null",
+    "}"
+  ],
+  "post_install": "rbxfpsunlocker",
+  "uninstaller": {
+    "script": "ps rbxfpsunlocker -ErrorAction SilentlyContinue | kill -PassThru"
+  }
 }
