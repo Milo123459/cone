@@ -13,8 +13,7 @@
   "extract_dir": "v",
   "bin": "v.exe",
   "checkver": {
-    "url": "https://github.com/vlang/v/releases",
-    "regex": "releases/tag/([\\d.]+)"
+    "url": "https://github.com/vlang/v/releases"
   },
   "autoupdate": {
     "architecture": {
