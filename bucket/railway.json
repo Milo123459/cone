@@ -1,12 +1,12 @@
 {
-    "version": "2.0.5",
+    "version": "2.0.6",
     "description": "Railway's CLI",
     "homepage": "https://github.com/railwayapp/cli",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/railwayapp/cli/releases/download/v2.0.5/railway_2.0.5_windows_amd64.tar.gz",
-            "hash": "4267c7a8dee54fbe7efcd6114c127e5a9d562de91639310c3fd673ba3a85a06c"
+            "url": "https://github.com/railwayapp/cli/releases/download/v2.0.6/railway_2.0.6_windows_amd64.tar.gz",
+            "hash": "02d6d77d13359df32582fdae5f9e86642772e1ec96bb7227ceb053e6580e8882"
         }
     },
     "bin": "railway.exe",
